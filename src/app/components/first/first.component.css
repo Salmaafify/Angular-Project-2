@@ -1,0 +1,48 @@
+h1{
+    color: #c47373;
+    text-align: center;
+}
+
+div{
+    width: 50%;
+    height: 300px;
+    border: 2px solid black;
+    margin: 10px auto;
+}
+
+input{
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 30px;
+    margin-top: 50px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+input[type="text"]{
+    outline: none;
+}
+input[type="button"]{
+    width: 150px;
+    background: coral;
+}
+
+input[type="button"]:hover{
+    transform: scale(1.2);
+    background: #9c401e;
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+input[type="button"]:active{
+    color: darkblue;
+    background: darkgray;
+}
+p{
+    text-align: center;
+    color: darkred;
+}
